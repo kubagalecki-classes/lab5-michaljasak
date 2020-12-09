@@ -14,7 +14,7 @@ vector< char > foo(list< Human >& people)
 	{
 		rit->birthday();
 
-		if (rit->isMonster)
+		if (rit->isMonster())
 		{
 			vec.push_back('n');
 		}
